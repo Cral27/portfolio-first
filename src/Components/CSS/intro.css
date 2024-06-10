@@ -1,0 +1,40 @@
+.random-bg{
+	background: white;
+	cursor: pointer;
+}
+
+.random-bg:hover{
+	animation: rotateAnimation 5s linear infinite;
+}
+
+@keyframes rotateAnimation{
+	0%{
+		transform: rotate(0deg);
+	}
+	100%{
+		transform: rotate(360deg);
+	}
+}
+
+@keyframes slideInLeft {
+	0% {
+		opacity: 0;
+		transform: translateX(-100%);
+	}
+	to {
+		transform: translateX(0);
+		opacity: 1;
+	}
+}
+
+.line1.animate{
+	animation: slideInLeft 1s forwards;
+}
+
+.line2.animate{
+	animation: slideInLeft 1.5s forwards;
+}
+
+.line3.animate{
+	animation: slideInLeft 2s forwards;
+}

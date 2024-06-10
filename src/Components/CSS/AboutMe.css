@@ -1,0 +1,48 @@
+#skills{
+    transform: translate(-50%, -50%);
+}
+
+#aboutMe{
+	background: white;
+}
+
+@keyframes slideInLeft {
+	from {
+	  transform: translateX(-100%);
+	  opacity: 0;
+	}
+	to {
+	  transform: translateX(0);
+	  opacity: 1;
+	}
+  }
+  
+.img-container img {	
+	opacity: 0;	
+	transition: transform 1s, opacity 1s;
+	margin: 0 auto;
+}
+
+.img-container img.animate {	
+	animation: slideInLeft 1s forwards;
+}
+
+.img-container img:hover {
+	transform: scale(1.2) !important;
+	cursor: pointer;
+}
+
+@keyframes slideInTop {
+	from {
+		transform: translateY(-100%);
+		opacity: 0;
+	}
+	to {
+		transform: translateY(0);
+		opacity: 1;
+	}
+}
+
+.head_text.animate{
+	animation: slideInTop 1s forwards;
+}
