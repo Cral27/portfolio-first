@@ -96,18 +96,22 @@ const Projects = () => {
 								Techshop is an ecommerce website that was built using React JS framework for the frontend, Express JS and Node JS for the backend, and MongoDB for the database.
 							</p>
 							<div className="flex gap-4 mt-4 transform scale-75 opacity-0 group-hover:scale-100 group-hover:opacity-100 transition duration-300 ease-in-out">
-								<button className="
-									py-2 px-6 bg-gray-500 text-white rounded-full w-40
-									xl:w-32
-									md:w-24 md:text-sm md:text-center
-									sm:w-20 sm:text-sm sm:text-center sm:px-2
-								">Video</button>
-								<button className="
-									py-2 px-6 bg-gray-500 text-white rounded-full w-40
-									xl:w-32
-									md:w-24 md:text-sm md:text-center
-									sm:w-20 sm:text-sm sm:text-center sm:px-2
-								">Github</button>
+								<a href="https://youtu.be/KzwN5JAbD_8">
+									<button className="
+										py-2 px-6 bg-gray-500 text-white rounded-full w-40
+										xl:w-32
+										md:w-24 md:text-sm md:text-center
+										sm:w-20 sm:text-sm sm:text-center sm:px-2
+									">Video</button>
+								</a>
+								<a href="https://github.com/Cral27/Ecommerce">
+									<button className="
+										py-2 px-6 bg-gray-500 text-white rounded-full w-40
+										xl:w-32
+										md:w-24 md:text-sm md:text-center
+										sm:w-20 sm:text-sm sm:text-center sm:px-2
+									">Github</button>
+								</a>
 							</div>
 						</div>
 					</div>
@@ -154,18 +158,22 @@ const Projects = () => {
 								Remind Me app is a mobile app that helps visually impaired users to navigate and check their task logger on the upcoming task on any day. The app is built using React Native.
 							</p>
 							<div className="flex gap-4 mt-4 transform scale-75 opacity-0 group-hover:scale-100 group-hover:opacity-100 transition duration-300 ease-in-out">
-								<button className="
-									py-2 px-6 bg-gray-500 text-white rounded-full w-40
-									xl:w-32
-									md:w-24 md:text-sm md:text-center
-									sm:w-20 sm:text-sm sm:text-center sm:px-2
-								">Video</button>
-								<button className="
-									py-2 px-6 bg-gray-500 text-white rounded-full w-40
-									xl:w-32
-									md:w-24 md:text-sm md:text-center
-									sm:w-20 sm:text-sm sm:text-center sm:px-2
-								">Github</button>
+								<a href="https://youtu.be/OVTskGSPe4Y">
+									<button className="
+										py-2 px-6 bg-gray-500 text-white rounded-full w-40
+										xl:w-32
+										md:w-24 md:text-sm md:text-center
+										sm:w-20 sm:text-sm sm:text-center sm:px-2
+									">Video</button>
+								</a>
+								<a href="https://github.com/Cral27/Capstone">
+									<button className="
+										py-2 px-6 bg-gray-500 text-white rounded-full w-40
+										xl:w-32
+										md:w-24 md:text-sm md:text-center
+										sm:w-20 sm:text-sm sm:text-center sm:px-2
+									">Github</button>
+								</a>
 							</div>
 						</div>
 					</div>
