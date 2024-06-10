@@ -17,9 +17,8 @@ export default function App() {
 					<SideLinks />
 					<Intro />
 				</div>
-				<AboutMe />
 				<Projects />
-				<Thanks />
+				<AboutMe />
 				<Footer />
 			</ParallaxProvider>
 		</>

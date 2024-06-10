@@ -28,9 +28,8 @@ const Navbar = () => {
 					md:space-x-2
 					sm:space-x-3
 				'>
-				<li className='border-black hover:border-b-2'><a href="#aboutMe">About Me</a></li>
-				<li className='border-black hover:border-b-2'><a href="#aboutMe">Skills</a></li>
-				<li className='border-black hover:border-b-2'><a href="#projects">Project</a></li>		
+				<li><a href="#projects" className='border-black hover:border-b-2'>Project</a></li>	
+				<li><a href="#aboutMe" className='border-black hover:border-b-2'>About Me</a></li>	
 			</ul>
 		</nav>
 	)
